@@ -1,3 +1,7 @@
+'''
+extract all words that contains 3 or more characters
+'''
+
 ## Data
 text = '''
 Call me Ishmael. Some years ago - never mind how long precisely - having
@@ -18,7 +22,7 @@ for line in text.split('\n'):
             li.append(x)
     z.append(li)
 
-## Result
-print(f"test:\n{text}")
-print(f"\nOne-liner (W):\n{w}\n")
-print(f"For loop   equivalent (Z):\n{z}")
+## result
+print(f"Data:\n{text}")
+print(f"\nOne-liner:\n{w}\n")
+print(f"For loop equivalent:\n{z}")
